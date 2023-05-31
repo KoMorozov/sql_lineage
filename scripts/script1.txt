@@ -1,0 +1,3 @@
+drop table if exists db.table1;
+create table db.table1 as
+select * from db.master_table

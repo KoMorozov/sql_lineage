@@ -1,0 +1,4 @@
+delete from table2
+where dadd = date '2023-01-01';
+insert into table2
+select * from table1
