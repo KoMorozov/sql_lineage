@@ -12,7 +12,10 @@ for path in os.listdir(dir_path):
 def get_tables(file, file_name):
     split_queries = file.split(';')
     for i in split_queries:
-        print(i, file_name)
+        if "create" in i:
+            print(1)
+        else:
+            print(2)
 
 
 
