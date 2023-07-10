@@ -1,0 +1,6 @@
+drop table if exists db.table3;
+create table db.table3 as
+with a as (
+select * from db.table2
+)
+select * from a
