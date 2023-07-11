@@ -1,5 +1,5 @@
 delete from db.table4
 where dadd = date '2023-01-01';
 insert into db.table4
-select * from db.table3
+select * from dwh.dm.table30
 join db.master_table
